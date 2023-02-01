@@ -75,5 +75,6 @@ Then load up Energy Trace and perform the similar capture of Power with the LED 
 2. Even with the LED unplugged, why is there still power increases when you press the button?
 
 
-# Screenshots and Answers to Questions
-**Replace this section with your screenshots of Energy Trace and provide some reasoning as to Questions 1 and 2 in the Power consumption of the Interrupts Section.**
+Answers:
+1. Polling is constantly using power to scan if the button is pressed while interrupt only uses power when the button is pressed.
+2. When you press the button, power is still being used to stop the light from being turned on.

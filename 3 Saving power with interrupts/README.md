@@ -74,6 +74,8 @@ Then load up Energy Trace and perform the similar capture of Power with the LED 
 1. What is causing the bias/baseline in the polling example to be higher than the interrupt example.
 2. Even with the LED unplugged, why is there still power increases when you press the button?
 
-
-# Screenshots and Answers to Questions
-**Replace this section with your screenshots of Energy Trace and provide some reasoning as to Questions 1 and 2 in the Power consumption of the Interrupts Section.**
+![Screenshot (14)](https://user-images.githubusercontent.com/113445587/216149832-8f2b137a-21d0-4b5d-bb1a-70b61f04dc2f.png)
+![Screenshot (15)](https://user-images.githubusercontent.com/113445587/216149857-f5829c2b-e858-459f-bbd9-45d7e8ef4495.png)
+Answers:
+1. Polling is constantly using power to scan if the button is pressed while interrupt only uses power when the button is pressed.
+2. When you press the button, power is still being used to stop the light from being turned on.
